@@ -14,6 +14,9 @@ a {
     transition: all 0.4s ease;
     font-weight: 900;
 }
+ul{
+    list-style: none;
+}
 
 img{
     width: 100%;
@@ -62,7 +65,7 @@ section{
     color: white;
 }
 
-.btn:hover{
+.btn-main:hover{
     color: white;
     transform: translateY(-5px) ;
 }
@@ -150,11 +153,101 @@ section{
 .review .star{
     color: orange;
 }
+/* Blog */
+.blog {
+    padding: 10px 8px;
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+.blog img{
+   width: 100%;
+   height: 250px;
+}
+.author .author-icon i{
+    font-size: 26px;
+}
+.author .author-icon p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.author .date{
+    margin-top: 5px;
+    margin-left: auto;
+    font-size: 12;
+}
+.author .date small i{
+    font-size: 12px;
+}
+.blog h3{
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
 
 footer{
-    background:linear-gradient(to right,#00e1ff, #12107e); ;
+    background:linear-gradient(to right,#00e1ff, #12107e); 
     color: #fff;
 }
-footer a{
+.footer-content h2 a{
+    color: #fff ;
+}
+.footer-content h2 a span{
+    color:#12107e;
+}
+.footer-icons a i{
     color: #fff;
+    font-size: 32px;
+    transition: all 0.5s ease;
+}
+.footer-icons a i:hover{
+    background: linear-gradient(to right,#ff0000, #12107e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-2px);
+}
+
+/* .useful-link h5{
+    border-bottom: 2px solid black;
+} */
+.useful-link  ul{
+    padding-left: 0;
+}
+
+.useful-link ul li a{
+    color: #fff;
+    font-weight: 400;
+    
+}
+
+.contact-us p{
+    text-align: left;
+    font-size: small;
+}
+
+.subscript-us .btn-footer{
+
+}
+.subscript-us .btn-footer{
+    background: linear-gradient(to right,#00e1ff, #12107e);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.footer-divider{
+    height: 2px;
+    width: 80%;
+    background: linear-gradient(to left,#00e1ff, #12107e);
+    margin: 0;
 }
