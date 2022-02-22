@@ -86,7 +86,8 @@ section{
 .navbar{
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show .nav-link{
   background: -webkit-linear-gradient(#00e1ff, #12107e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -250,4 +251,60 @@ footer{
     width: 80%;
     background: linear-gradient(to left,#00e1ff, #12107e);
     margin: 0;
+}
+
+
+/* ==========Blog Page Css=========== */
+.blog-banner{
+    background: url(../img/cover-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* content */
+
+.box{
+    margin: 0 20px;
+    width: 100%;
+    box-shadow:0 16px 24px  rgba(0,0,0,0.2);
+    height: 340px;
+    padding: 0;
+}
+
+.box img{
+    width: 100%;
+    height: 160px;
+    
+    
+}
+.author a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+}.author a{
+    margin: 0;
+}
+.author a p{
+    margin-top: 18px;
+    padding-bottom: 0;
+    margin-left: 4px;
+    font-weight: 700;
+    color: black;
+}
+.date{
+    color: #959595;
+    font-size: 10px;
+    margin-top: 42px;
+}
+.box_txt h5 a{
+    color: black;
+}
+.box_txt p{
+    text-align: left;
+    line-height: 1;
+    font-size: 14px;
+    padding-bottom: 10px;
 }
