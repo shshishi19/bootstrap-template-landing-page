@@ -87,10 +87,10 @@ section{
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
 .navbar-light .navbar-nav .nav-link.active, 
-.navbar-light .navbar-nav .show .nav-link{
-  background: -webkit-linear-gradient(#00e1ff, #12107e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.navbar-light .navbar-nav .show>.nav-link {
+    background: -webkit-linear-gradient(#00e1ff, #12107e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .section-intro{
     margin-bottom: 40px;
@@ -173,7 +173,7 @@ section{
 .author .date{
     margin-top: 5px;
     margin-left: auto;
-    font-size: 12;
+    font-size: 12px;
 }
 .author .date small i{
     font-size: 12px;
@@ -261,12 +261,23 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bl_bg{
+    background: linear-gradient(to right,#00e1ff, #12107e);
+}
 
+.bdr{
+    margin: 0;
+    border: 1px solid #959595;
+   
+}
+.bdr header{
+
+}
 
 /* content */
 
 .box{
-    margin: 0 20px;
+    
     width: 100%;
     box-shadow:0 16px 24px  rgba(0,0,0,0.2);
     height: 340px;
@@ -308,3 +319,94 @@ footer{
     font-size: 14px;
     padding-bottom: 10px;
 }
+
+/* Right Site */
+
+.category_list{
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+.category_list ul{}
+
+.category_list ul li{
+    line-height: 1.8;
+}
+
+.category_list ul li a{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+}
+.post_list{
+    box-shadow: 0 12px 18px rgba(0,0,0,0.1);
+}
+.post_list .post{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+}
+.post_list img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.post_list .post .text{
+    margin-top: 25px;
+}
+
+.tag_box{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.tag_header{}
+.tag_list{
+   padding: 20px;
+}
+
+/* Details */
+
+
+.post_dtls{
+    display: flex;
+    color: #212529;
+}
+.post_dtls a{
+    color: #212529;
+    margin-right: 16px;
+}
+.post_dtls p{
+    margin-top: 4px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+}
+.post_dtls .fa-solid{
+    font-size: 10px;
+}
+
+/* Social Share */
+
+.social .social_icons a i{
+    background: -webkit-linear-gradient(#00e1ff, #12107e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+.social .social-icons a i:hover{
+    background: linear-gradient(to right,#ff0000, #12107e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
