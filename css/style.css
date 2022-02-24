@@ -260,14 +260,21 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .bl_bg{
     background: linear-gradient(to right,#00e1ff, #12107e);
 }
+.blog_nav {
+   margin-top: 50px;
+}
+.blog_nav nav ol li a{
+   color: #fff;
+}
 
 .bdr{
     margin: 0;
-    border: 1px solid #959595;
+    
    
 }
 .bdr header{
@@ -400,6 +407,76 @@ footer{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* Contact Page */
+
+.contact_banner{
+    background: url(../contact_page/img/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 225, 255, 0.7), rgba(18, 16, 126, 0.4));
+    z-index: -1;
+}
+
+.address{
+   
+}
+.address_box{
+    padding: 10px;
+}
+
+.address_icon{
+    margin-right: 10px;
+    height: 4rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 100% ;
+    box-shadow: 1px 2px 4px 2px rgba(0,0,0,0.5);
+    
+}
+.address_icon i{
+    font-size: 18px;
+    text-align: center;
+}
+.address p{
+    width: 100%;
+    height: 50px;
+    line-height: 1;
+    margin-top: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
