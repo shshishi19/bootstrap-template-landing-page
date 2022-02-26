@@ -502,13 +502,50 @@ footer{
 
 
 
+/* =============About Page============== */
 
+.about_banner{
+    background: url(../about_page/img/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+    z-index: -1;
+}
+.about{
+    padding: 10px;
+    
+}
 
+.about_work{
+   padding: 10px;
+    box-shadow: 1px 2px 4px 2px rgba(125, 125, 125, 0.5);
+}
 
-
-
-
-
+.about_work .about_icon{
+    background: -webkit-linear-gradient(#00e1ff, #12107e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    margin-right: 10px;
+}
+.about_work .about_txt{
+    padding-top: 10px;
+}
+.about_work .about_txt h6{
+    font-weight: 800;
+}
+.about_work .about_txt p{
+    font-size: 14px;
+}
 
 
 
