@@ -329,28 +329,44 @@ footer{
     color: black;
 }
 .box_txt p{
-    text-align: left;
+    padding-right: 10px;
+    text-align: justify;
     line-height: 1;
     font-size: 14px;
-    padding-bottom: 10px;
+    
 }
-
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 /* Right Site */
 
 .category_list{
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
 
-.category_list ul{}
+.category_list ul{
+    
+    padding-bottom: 16px;
+}
 
 .category_list ul li{
     line-height: 1.8;
+    list-style: inside url(../blog_pages/img/arrow-16.png);
 }
 
 .category_list ul li a{
     color: #212529;
     font-size: 16px;
     font-weight: 400;
+}
+.category_list ul li:hover,
+.category_list ul li a:hover{
+    background: -webkit-linear-gradient( #00e1ff, #12107e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
 }
 .post_list{
     box-shadow: 0 12px 18px rgba(0,0,0,0.1);
@@ -362,13 +378,19 @@ footer{
     border-bottom: 1px solid rgba(0,0,0,0.1);
     padding-bottom: 10px;
 }
-.post_list img{
-    width: 70px;
-    height: 70px;
+.post_img{
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
+    overflow: hidden;
 }
-.post_list .post .text{
-    margin-top: 25px;
+.post_img img{
+    
+    
+}
+
+.post_list .text{
+    margin-top: 10px;
 }
 
 .tag_box{
@@ -378,6 +400,7 @@ footer{
 }
 .tag_header{}
 .tag_list{
+    
    padding: 20px;
 }
 
@@ -524,13 +547,37 @@ footer{
     padding: 10px;
     
 }
+.about h1{
+
+}
+.about p{
+    text-align: justify;
+}
+.about .btn-about{
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.about .btn-about:hover{
+    background: linear-gradient(to right,#00e1ff, #12107e);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
 
 .about_work{
    padding: 10px;
-    box-shadow: 1px 2px 4px 2px rgba(125, 125, 125, 0.5);
+   background: rgba(255, 255, 255, 0.2);
+   box-shadow: 1px 2px 4px 2px rgba(125, 125, 125, 0.5);
 }
 
 .about_work .about_icon{
+    width: 8rem;
+}
+.about_work .about_icon {
     background: -webkit-linear-gradient(#00e1ff, #12107e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -545,6 +592,7 @@ footer{
 }
 .about_work .about_txt p{
     font-size: 14px;
+    text-align: justify;
 }
 
 
